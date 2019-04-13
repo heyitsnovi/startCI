@@ -17,7 +17,6 @@
 
 <body>
   <div class="container-scroller">
-    <!-- partial:partials/_navbar.html -->
     <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
         <a class="navbar-brand brand-logo" href="<?php echo base_url('admin'); ?>">
@@ -56,9 +55,8 @@
         </button>
       </div>
     </nav>
-    <!-- partial -->
+
     <div class="container-fluid page-body-wrapper">
-      <!-- partial:partials/_sidebar.html -->
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
           <li class="nav-item nav-profile">
@@ -103,27 +101,22 @@
           </li>          
         </ul>
       </nav>
-      <!-- partial -->
+
       <div class="main-panel">
         <div class="content-wrapper">
           <?php $this->load->view($view_content); ?>
         </div>
-        <!-- content-wrapper ends -->
-        <!-- partial:../../partials/_footer.html -->
+
         <footer class="footer">
           <div class="container-fluid clearfix">
             <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © <?php echo date('Y'); ?>
               <a href="http://www.github.com/heyitsnovi" target="_blank">CI-StartApp</a>. All rights reserved.</span>
             <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">CodeIgniter Version: <?php echo CI_VERSION; ?>
-               
             </span>
           </div>
         </footer>
-        <!-- partial -->
       </div>
-      <!-- main-panel ends -->
     </div>
-    <!-- page-body-wrapper ends -->
   </div>
  
   <script src="<?php echo base_url('assets/vendors/js/vendor.bundle.base.js');?>"></script>
@@ -132,7 +125,5 @@
   <script src="<?php echo base_url('assets/js/misc.js');?>"></script>
   <script src="<?php echo base_url('assets/js/dashboard.js');?>"></script>
  
-</body>
-
- 
+  </body>
 </html>

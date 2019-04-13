@@ -25,6 +25,7 @@
         </div>
  
         <button type="submit" class="btn btn-success mr-2" name="new_group_btn">Submit</button>
+        <a href="<?php echo base_url('admin/groups/'); ?>" class="btn btn-danger mr-2">Cancel</a> 
 
       <?php echo form_close();?>
     </div>

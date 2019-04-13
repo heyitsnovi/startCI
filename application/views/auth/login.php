@@ -71,7 +71,7 @@
               <?php echo form_close();?>
             </div>
               <br>
-            <p class="footer-text text-center">copyright © <?php echo date('Y');?> HeyItsNovi. All rights reserved.</p>
+            <p class="footer-text text-center">copyright © <?php echo date('Y');?> CI-StartApp. All rights reserved.</p>
           </div>
         </div>
       </div>
